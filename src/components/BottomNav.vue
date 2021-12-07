@@ -10,10 +10,11 @@
       <label>{{ item.title }}</label>
     </router-link>
   </div>
-  <h3>{{ parent.length ? parent[0] : "失败" }}</h3>
+<!--  <h3>{{ parent.length ? parent[0] : "失败" }}</h3>-->
 </template>
 
 <script>
+// eslint-disable-next-line
 import bttomData from "@/utils/bottomData.js";
 import { inject, reactive, toRefs } from "vue";
 export default {

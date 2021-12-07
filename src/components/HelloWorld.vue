@@ -18,7 +18,7 @@ export default {
   setup(props, context) {
     // reactive data
     const state = reactive({
-      name: "kkkwang",
+      name: 'kkkwang',
       age: 18,
     });
 
